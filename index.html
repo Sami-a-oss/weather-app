@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+  <div class="container">
+    <div class="searchBoxContainer">
+      <div class="searchBox"><input type="text" id="input" placeholder="Chengdu"></div>
+      <div class="searchIcon"><img src="search.png"></div>
+    </div>
+    <div class="img"><img src="clear.png" id="weatherImg"></div>
+    <div class="cityTem"><p id="temp">22&deg;C</p></div>
+    <div class="cityName"><p id="cityName">Chengdu</p></div>
+    <div class="inforContainer">
+      <div class="humidity">
+        <div class="humidityImg"><img src="humidity.png"></div>
+        <div class="humidityInfo">
+          <div class="text" id="humidityAmount">53%</div>
+          <div><p class="text">Humidity</p></div>
+        </div>
+      </div>
+      <div class="wind">
+        <div class="windImg"><img src="wind.png"></div>
+        <div class="windInfo">
+          <div class="text" id="windSpeed">5.66 km/h</div>
+          <div><p class="text">Wind Speed</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
